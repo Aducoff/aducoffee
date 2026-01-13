@@ -4,54 +4,35 @@
   <meta charset="UTF-8">
   <title>Adu Coffee | Ethiopian Coffee Export</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <style>
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
       color: #222;
       background: #fafafa;
-      line-height: 1.6;
     }
-
     header {
       background: #3b2a1a;
       color: #fff;
       padding: 60px 20px;
       text-align: center;
     }
-
     header h1 {
       margin: 0;
       font-size: 42px;
-      letter-spacing: 1px;
     }
-
     header p {
       max-width: 700px;
       margin: 15px auto 0;
       font-size: 18px;
       opacity: 0.95;
     }
-<section style="max-width:1000px;margin:auto;padding:40px 20px;">
-  <video 
-    controls 
-    autoplay 
-    muted 
-    loop 
-    playsinline
-    style="width:100%;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.15);">
-    <source src="aducoffee.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</section>
-
     nav {
       background: #2a1e14;
       padding: 12px;
       text-align: center;
     }
-
     nav a {
       color: #fff;
       margin: 0 15px;
@@ -59,31 +40,26 @@
       font-weight: bold;
       font-size: 14px;
     }
-
     section {
       max-width: 1000px;
       margin: auto;
       padding: 60px 20px;
     }
-
     h2 {
       color: #3b2a1a;
       margin-bottom: 15px;
     }
-
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 25px;
     }
-
     .card {
       background: #fff;
       padding: 25px;
       border-radius: 6px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
-
     footer {
       background: #3b2a1a;
       color: #fff;
@@ -91,7 +67,12 @@
       padding: 25px;
       font-size: 14px;
     }
-
+    video {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      margin-bottom: 20px;
+    }
     .contact {
       background: #fff;
       border-left: 5px solid #3b2a1a;
@@ -99,35 +80,24 @@
     }
   </style>
 </head>
-
 <body>
 
 <header>
   <h1>Adu Coffee</h1>
-  <p>
-    Ethiopian coffee exporter focused on traceability, lot integrity,
-    and long-term relationships with international buyers.
-  </p>
+  <p>Ethiopian coffee exporter focused on traceability and long-term buyer trust.</p>
 </header>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#lots">Coffee Lots</a>
-  <a href="#values">Our Values</a>
-  <a href="#contact">Contact</a>
-</nav>
+<section>
+  <video controls autoplay muted loop playsinline>
+    <source src="aducoffee.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p style="text-align:center;color:#666;">Ethiopian origin · Traceable lots · Adu Coffee</p>
+</section>
 
 <section id="about">
   <h2>About Adu Coffee</h2>
-  <p>
-    Adu Coffee is an Ethiopian coffee trading and export company working
-    closely with producers, washing stations, and partners across
-    Ethiopia’s major coffee origins.
-  </p>
-  <p>
-    Our focus is not volume dumping, but <strong>clear lot definition,
-    honest pricing, and buyer trust</strong>.
-  </p>
+  <p>We work closely with producers, washing stations, and partners across Ethiopia’s major coffee origins. Our focus is on clear lot definition, honest pricing, and buyer trust.</p>
 </section>
 
 <section id="lots">
@@ -135,49 +105,15 @@
   <div class="grid">
     <div class="card">
       <h3>Single-Origin Lots</h3>
-      <p>
-        Clearly separated lots based on origin, processing method,
-        and harvest period.
-      </p>
+      <p>Clearly separated lots based on origin, processing method, and harvest period.</p>
     </div>
     <div class="card">
       <h3>Specialty & Commercial</h3>
-      <p>
-        Carefully selected specialty microlots as well as
-        consistent commercial grades.
-      </p>
+      <p>Carefully selected specialty microlots and consistent commercial grades.</p>
     </div>
     <div class="card">
       <h3>Traceability</h3>
-      <p>
-        Transparent information on origin, processing,
-        and supply chain actors.
-      </p>
-    </div>
-  </div>
-</section>
-
-<section id="values">
-  <h2>Our Values</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Trust Over Hype</h3>
-      <p>
-        We sell reliability and consistency — not exaggerated stories.
-      </p>
-    </div>
-    <div class="card">
-      <h3>Human Dignity</h3>
-      <p>
-        Respect for producers, workers, and communities involved
-        in the coffee value chain.
-      </p>
-    </div>
-    <div class="card">
-      <h3>Long-Term Thinking</h3>
-      <p>
-        Sustainable relationships matter more than short-term margins.
-      </p>
+      <p>Transparent information on origin, processing, and supply chain actors.</p>
     </div>
   </div>
 </section>
@@ -188,10 +124,7 @@
     <p><strong>Company:</strong> Adu Coffee</p>
     <p><strong>Country:</strong> Ethiopia</p>
     <p><strong>Email:</strong> info@aducoffee.com</p>
-    <p>
-      Buyers and partners are welcome to reach out for
-      lot details, samples, and collaboration.
-    </p>
+    <p>Buyers and partners are welcome to reach out for lot details, samples, and collaboration.</p>
   </div>
 </section>
 
